@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A18B921D1790AC000245C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B911D1790AC000245C5 /* main.m */; };
+		04A18B951D1790AD000245C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B941D1790AD000245C5 /* AppDelegate.m */; };
+		04A18B9D1D1790AD000245C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A18B9C1D1790AD000245C5 /* Assets.xcassets */; };
+		04A18BA01D1790AD000245C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A18B9E1D1790AD000245C5 /* LaunchScreen.storyboard */; };
+		04A18BB81D17911C000245C5 /* YRApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18BB71D17911C000245C5 /* YRApp.m */; };
+		04A18BC71D17927D000245C5 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18BC01D17927D000245C5 /* NSString+Path.m */; };
+		04A18BC81D17927D000245C5 /* YRDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18BC21D17927D000245C5 /* YRDownloadManager.m */; };
+		04A18BC91D17927D000245C5 /* YRDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18BC41D17927D000245C5 /* YRDownloadOperation.m */; };
+		04A18BCA1D17927D000245C5 /* YRImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18BC61D17927D000245C5 /* YRImageView.m */; };
+		04A18BCD1D1792BC000245C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A18BCC1D1792BC000245C5 /* ViewController.m */; };
+		04A18BCF1D1792C7000245C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A18BCE1D1792C7000245C5 /* Main.storyboard */; };
+		04A18BD11D17934C000245C5 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04A18BD01D17934C000245C5 /* apps.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A18B8D1D1790AC000245C5 /* 自定义WebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义WebImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A18B911D1790AC000245C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A18B931D1790AC000245C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A18B941D1790AD000245C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A18B9C1D1790AD000245C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A18B9F1D1790AD000245C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A18BA11D1790AD000245C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A18BB61D17911C000245C5 /* YRApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRApp.h; sourceTree = "<group>"; };
+		04A18BB71D17911C000245C5 /* YRApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRApp.m; sourceTree = "<group>"; };
+		04A18BBF1D17927D000245C5 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		04A18BC01D17927D000245C5 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		04A18BC11D17927D000245C5 /* YRDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRDownloadManager.h; sourceTree = "<group>"; };
+		04A18BC21D17927D000245C5 /* YRDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRDownloadManager.m; sourceTree = "<group>"; };
+		04A18BC31D17927D000245C5 /* YRDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRDownloadOperation.h; sourceTree = "<group>"; };
+		04A18BC41D17927D000245C5 /* YRDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRDownloadOperation.m; sourceTree = "<group>"; };
+		04A18BC51D17927D000245C5 /* YRImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRImageView.h; sourceTree = "<group>"; };
+		04A18BC61D17927D000245C5 /* YRImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRImageView.m; sourceTree = "<group>"; };
+		04A18BCB1D1792BC000245C5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A18BCC1D1792BC000245C5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A18BCE1D1792C7000245C5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04A18BD01D17934C000245C5 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A18B8A1D1790AC000245C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A18B841D1790AC000245C5 = {
+			isa = PBXGroup;
+			children = (
+				04A18B8F1D1790AC000245C5 /* 自定义WebImage */,
+				04A18B8E1D1790AC000245C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A18B8E1D1790AC000245C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B8D1D1790AC000245C5 /* 自定义WebImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A18B8F1D1790AC000245C5 /* 自定义WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				04A18BBE1D17927D000245C5 /* YRWebImage */,
+				04A18B931D1790AC000245C5 /* AppDelegate.h */,
+				04A18B941D1790AD000245C5 /* AppDelegate.m */,
+				04A18B9C1D1790AD000245C5 /* Assets.xcassets */,
+				04A18BB61D17911C000245C5 /* YRApp.h */,
+				04A18BB71D17911C000245C5 /* YRApp.m */,
+				04A18BCE1D1792C7000245C5 /* Main.storyboard */,
+				04A18BCB1D1792BC000245C5 /* ViewController.h */,
+				04A18BCC1D1792BC000245C5 /* ViewController.m */,
+				04A18B9E1D1790AD000245C5 /* LaunchScreen.storyboard */,
+				04A18BA11D1790AD000245C5 /* Info.plist */,
+				04A18B901D1790AC000245C5 /* Supporting Files */,
+			);
+			path = "自定义WebImage";
+			sourceTree = "<group>";
+		};
+		04A18B901D1790AC000245C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A18BD01D17934C000245C5 /* apps.plist */,
+				04A18B911D1790AC000245C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A18BBE1D17927D000245C5 /* YRWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				04A18BBF1D17927D000245C5 /* NSString+Path.h */,
+				04A18BC01D17927D000245C5 /* NSString+Path.m */,
+				04A18BC11D17927D000245C5 /* YRDownloadManager.h */,
+				04A18BC21D17927D000245C5 /* YRDownloadManager.m */,
+				04A18BC31D17927D000245C5 /* YRDownloadOperation.h */,
+				04A18BC41D17927D000245C5 /* YRDownloadOperation.m */,
+				04A18BC51D17927D000245C5 /* YRImageView.h */,
+				04A18BC61D17927D000245C5 /* YRImageView.m */,
+			);
+			path = YRWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A18B8C1D1790AC000245C5 /* 自定义WebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A18BA41D1790AD000245C5 /* Build configuration list for PBXNativeTarget "自定义WebImage" */;
+			buildPhases = (
+				04A18B891D1790AC000245C5 /* Sources */,
+				04A18B8A1D1790AC000245C5 /* Frameworks */,
+				04A18B8B1D1790AC000245C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义WebImage";
+			productName = "自定义WebImage";
+			productReference = 04A18B8D1D1790AC000245C5 /* 自定义WebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A18B851D1790AC000245C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yr;
+				TargetAttributes = {
+					04A18B8C1D1790AC000245C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A18B881D1790AC000245C5 /* Build configuration list for PBXProject "自定义WebImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A18B841D1790AC000245C5;
+			productRefGroup = 04A18B8E1D1790AC000245C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A18B8C1D1790AC000245C5 /* 自定义WebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A18B8B1D1790AC000245C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A18BD11D17934C000245C5 /* apps.plist in Resources */,
+				04A18BA01D1790AD000245C5 /* LaunchScreen.storyboard in Resources */,
+				04A18B9D1D1790AD000245C5 /* Assets.xcassets in Resources */,
+				04A18BCF1D1792C7000245C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A18B891D1790AC000245C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A18BC91D17927D000245C5 /* YRDownloadOperation.m in Sources */,
+				04A18BCA1D17927D000245C5 /* YRImageView.m in Sources */,
+				04A18BCD1D1792BC000245C5 /* ViewController.m in Sources */,
+				04A18B951D1790AD000245C5 /* AppDelegate.m in Sources */,
+				04A18BC81D17927D000245C5 /* YRDownloadManager.m in Sources */,
+				04A18BB81D17911C000245C5 /* YRApp.m in Sources */,
+				04A18B921D1790AC000245C5 /* main.m in Sources */,
+				04A18BC71D17927D000245C5 /* NSString+Path.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04A18B9E1D1790AD000245C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A18B9F1D1790AD000245C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A18BA21D1790AD000245C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A18BA31D1790AD000245C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A18BA51D1790AD000245C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义WebImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yr.---WebImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A18BA61D1790AD000245C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义WebImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yr.---WebImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A18B881D1790AC000245C5 /* Build configuration list for PBXProject "自定义WebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A18BA21D1790AD000245C5 /* Debug */,
+				04A18BA31D1790AD000245C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A18BA41D1790AD000245C5 /* Build configuration list for PBXNativeTarget "自定义WebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A18BA51D1790AD000245C5 /* Debug */,
+				04A18BA61D1790AD000245C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A18B851D1790AC000245C5 /* Project object */;
+}
