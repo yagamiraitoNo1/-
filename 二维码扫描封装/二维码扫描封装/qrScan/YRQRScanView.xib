@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="cXX-Nn-OAH" customClass="YRQRScanView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrCode.bundle/pick_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OXM-co-wm3" userLabel="Bg Image View">
+                    <rect key="frame" x="160" y="160" width="280" height="280"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="HYI-e4-yZb"/>
+                        <constraint firstAttribute="height" constant="280" id="fMf-eh-iXI"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrCode.bundle/line" translatesAutoresizingMaskIntoConstraints="NO" id="W3i-zC-i1z" userLabel="Line Image View">
+                    <rect key="frame" x="160" y="160" width="280" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="h3i-ka-AAV"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OXM-co-wm3" firstAttribute="centerY" secondItem="cXX-Nn-OAH" secondAttribute="centerY" id="Ciu-Aj-HsV"/>
+                <constraint firstItem="W3i-zC-i1z" firstAttribute="leading" secondItem="OXM-co-wm3" secondAttribute="leading" id="MRH-bo-Rc9"/>
+                <constraint firstItem="W3i-zC-i1z" firstAttribute="top" secondItem="OXM-co-wm3" secondAttribute="top" id="bBK-vx-6Zp"/>
+                <constraint firstItem="OXM-co-wm3" firstAttribute="centerX" secondItem="cXX-Nn-OAH" secondAttribute="centerX" id="od8-70-y98"/>
+                <constraint firstItem="W3i-zC-i1z" firstAttribute="trailing" secondItem="OXM-co-wm3" secondAttribute="trailing" id="rke-8C-eWv"/>
+            </constraints>
+            <connections>
+                <outlet property="bgImageView" destination="OXM-co-wm3" id="nvM-6d-MRI"/>
+                <outlet property="lineImageView" destination="W3i-zC-i1z" id="5K9-sR-Nge"/>
+            </connections>
+            <point key="canvasLocation" x="331" y="401"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qrCode.bundle/line" width="280" height="280"/>
+        <image name="qrCode.bundle/pick_bg" width="280" height="280"/>
+    </resources>
+</document>
